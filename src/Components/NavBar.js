@@ -22,6 +22,8 @@ export default class NavBar extends Component{
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/UploadPictures">Upload Items</Link></li>
                         <li><Link to="/Items" >Items For Sale</Link></li>
+                        <li><Link to="/login" >Login</Link></li>
+                        <li><Link to="/contact" >Contact Us</Link></li>
                         <li><a >JavaScript</a></li>
                     </ul>
                   

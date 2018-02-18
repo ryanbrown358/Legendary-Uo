@@ -8,7 +8,7 @@ export default class TopDeals extends Component{
             <div>
                 <article className="float-right">
                     <div>
-                        Testing!
+                        
                     </div>
                 </article>
             </div>
