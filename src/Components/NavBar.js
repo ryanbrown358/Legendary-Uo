@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar';
+
 
 
 export default class NavBar extends Component{
@@ -9,9 +9,16 @@ export default class NavBar extends Component{
 
             <div>
                   <nav>
-                    <div class="nav-wrapper">
-                    <a  class="brand-logo right">Logo</a>
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <div className="nav-wrapper  amber accent-4">
+                    <div className="nav-wrapper right">
+                        <form>
+                            <div className="input-field">
+                            <input id="search" type="search" required />
+                            <label className="label-icon" htmlFor="search"><i className="material-icons">search</i></label>
+                            </div>
+                        </form>
+                        </div>
+                    <ul id="nav-mobile" className="left hide-on-med-and-down">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/UploadPictures">Upload Items</Link></li>
                         <li><Link to="/Items" >Items For Sale</Link></li>
