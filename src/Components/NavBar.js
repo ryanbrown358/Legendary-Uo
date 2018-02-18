@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar';
 
 
 export default class NavBar extends Component{
@@ -16,6 +17,7 @@ export default class NavBar extends Component{
                         <li><Link to="/Items" >Items For Sale</Link></li>
                         <li><a >JavaScript</a></li>
                     </ul>
+                  
                     </div>
                 </nav>
             </div>

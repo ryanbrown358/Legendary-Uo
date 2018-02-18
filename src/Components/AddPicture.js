@@ -12,7 +12,7 @@ export default class AddPicture extends Component{
                 <span>File</span>
                 <input type="file" multiple/>
                 </div>
-            <div className="file-path-wrapper">
+                 <div className="file-path-wrapper">
                 <input className="file-path validate" type="text" placeholder="Upload one or more files"/>
                 </div>
                 </div>
