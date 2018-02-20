@@ -18,13 +18,13 @@ export default class NavBar extends Component{
                             </div>
                         </form>
                         </div>
-                    <ul id="nav-mobile" className="left hide-on-med-and-down">
-                        <li><Link to="/">Home</Link></li>
+                    <ul id="nav-mobile" className="left ">
+                        <li><Link to="/home">Home</Link></li>
                         <li><Link to="/UploadPictures">Upload Items</Link></li>
                         <li><Link to="/Items" >Items For Sale</Link></li>
-                        <li><Link to="/login" >Login</Link></li>
+                        <li><Link to="/" >Login</Link></li>
                         <li><Link to="/contact" >Contact Us</Link></li>
-                        <li><a >JavaScript</a></li>
+                       
                     </ul>
                   
                     </div>

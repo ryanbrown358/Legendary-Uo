@@ -29,29 +29,30 @@ export default class ContactUs extends Component{
     render(){
         return(
             <div>
-            <h1>Contact Us</h1>
-           
+                <div>
+                <h1 className="">Contact Us</h1>
+                </div>
               <br />
               
             <form onSubmit={this.onSubmit.bind(this)}>
           
               <div className="input-field ">
-                <i className="material-icons prefix">mail</i>
-                <input id="email" type="email" ref="email" />
-                <label htmlFor="email">Your Email Address</label>
+                        <i className="material-icons prefix">mail</i>
+                        <input id="email" type="email" ref="email" placeholder="Your Email Address" />
+                
               </div>
           
               <br />
           
               <div className="input-field ">
-                <i className="material-icons prefix">create</i>
-                <input type="text" id="itextarea1" className="materialize-textarea" data-length="" ref="message"  /> 
-                <label htmlFor="itextarea1">Email</label>
+                        <i className="material-icons prefix">create</i>
+                        <input type="text" id="itextarea1" className="materialize-textarea" data-length="" ref="message" placeholder="Your Message" /> 
+              
               </div>
           
               <br />
               
-              <button className="btn hoverable" formTarget="_blank" type="submit" value="Send">Send</button>
+              <button className="btn hoverable right" formTarget="_blank" type="submit" value="Send">Send</button>
             </form>
           
           </div>

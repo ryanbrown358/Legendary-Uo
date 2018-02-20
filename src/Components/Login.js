@@ -32,17 +32,18 @@ class Login extends Component {
     return (
       <div>
 
-        <h1>Login</h1>
+            <h1 className="left">Login</h1>
+            <br/>
         <form onSubmit={this.onSubmit.bind(this)}>
-          <div className="input-field">
-            <input type="text" name="email" ref="email" />
-            <label htmlFor="email">Email</label>
+                <div className="input-field">
+                    <input type="text" name="email" ref="email" placeholder="Email" />
+         
           </div>
-          <div className="input-field">
-            <input type="text" name="password" ref="password" />
-            <label htmlFor="password">  Password</label>
+                <div className="input-field">
+                    <input type="text" name="password" ref="password" placeholder="Password" />
+            
           </div>
-          <input type="submit" value="Login" className="btn blue darken-3" />
+          <input type="submit" value="Login" className="left btn blue darken-3" />
           <Link className="btn right" to="/newAccount">Create Account</Link>
         </form>
       </div>

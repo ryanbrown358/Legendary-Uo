@@ -8,10 +8,10 @@ import CreateAccount from './CreateAcount';
 
 const Main = () => (
     <main>
-    <Switch>
+        <Switch>
+        <Route exact path="/" component={Login} />
         <Route exact path="/UploadPictures" component={UploadPictures} />
         <Route exact path="/Items" component={ViewItems} />
-        <Route exact path="/login" component={Login} />
         <Route exact path="/contact" component={ContactUs} />
         <Route exact path="/newAccount" component={CreateAccount} />
     </Switch>

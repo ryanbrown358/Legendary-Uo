@@ -30,7 +30,7 @@ class CreateAccount extends Component {
     return (
       <div>
         <br />
-        <Link className="btn grey" to='/home'>Back</Link>
+        
         <h1>Add User</h1>
         <form onSubmit={this.onSubmit.bind(this)}>
           <div className="input-field">
@@ -41,7 +41,8 @@ class CreateAccount extends Component {
             <input type="text" name="password" ref="password" />
             <label htmlFor="password">  Password</label>
           </div>
-          <input type="submit" value="Save" className="btn" />
+          <input type="submit" value="Save" className="btn right" />
+          <Link className="left btn grey" to='/home'>Back</Link>
         </form>
       </div>
     )
