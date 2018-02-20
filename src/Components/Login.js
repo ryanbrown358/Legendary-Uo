@@ -40,7 +40,7 @@ class Login extends Component {
          
           </div>
                 <div className="input-field">
-                    <input type="text" name="password" ref="password" placeholder="Password" />
+                    <input type="password" name="password" ref="password" placeholder="Password" />
             
           </div>
           <input type="submit" value="Login" className="left btn blue darken-3" />
