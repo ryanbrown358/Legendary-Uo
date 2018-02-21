@@ -5,10 +5,10 @@ export default class SearchBar extends Component{
     render(){
         return(
             <div>
-                 <div className="input-field">
-                        <input id="search" type="search" required/>
-                        <label class="label-icon" for="search"><i class="material-icons"></i></label>
-                        <i className="material-icons">close</i>
+                <div className="input-field">
+                    <input id="search" type="search" required placeholder="Search..." />
+                       
+                        
                  </div>
             </div>
         );

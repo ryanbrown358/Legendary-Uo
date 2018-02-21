@@ -1,0 +1,6 @@
+.bg-poster {
+    background: url(./Pictures/Brick-Background.png) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

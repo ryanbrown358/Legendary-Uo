@@ -30,19 +30,19 @@ class CreateAccount extends Component {
     return (
       <div>
         <br />
-        
-        <h1>Add User</h1>
+
+        <h1 className="left amber-text text-accent-3">Add User</h1>
         <form onSubmit={this.onSubmit.bind(this)}>
-          <div className="input-field">
-            <input type="text" name="email" ref="email" />
-            <label htmlFor="email">Email</label>
+                <div className="input-field">
+                    <input type="text" name="email" ref="email" placeholder="Email" />
+           
           </div>
-          <div className="input-field">
-            <input type="text" name="password" ref="password" />
-            <label htmlFor="password">  Password</label>
+                <div className="input-field">
+                    <input type="text" name="password" ref="password" placeholder="Password" />
+          
           </div>
           <input type="submit" value="Save" className="btn right" />
-          <Link className="left btn grey" to='/home'>Back</Link>
+          <Link className="left btn grey" to='/'>Back</Link>
         </form>
       </div>
     )

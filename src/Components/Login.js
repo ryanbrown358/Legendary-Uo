@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
  import axios from 'axios';
-import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
+
 
 class Login extends Component {
 
@@ -32,9 +33,9 @@ class Login extends Component {
     return (
       <div>
 
-            <h1 className="left">Login</h1>
+            <h1 className="left amber-text text-accent-3">Login</h1>
             <br/>
-        <form onSubmit={this.onSubmit.bind(this)}>
+            <form  onSubmit={this.onSubmit.bind(this)}>
                 <div className="input-field">
                     <input type="text" name="email" ref="email" placeholder="Email" />
          

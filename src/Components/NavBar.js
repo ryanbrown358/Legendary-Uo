@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../App.css';
 
 
 export default class NavBar extends Component{
@@ -8,13 +8,13 @@ export default class NavBar extends Component{
         return(
 
             <div>
-                  <nav>
-                    <div className="nav-wrapper  amber accent-4">
+                <nav className="borders">
+                    <div className="nav-wrapper black">
                     <div className="nav-wrapper right">
                         <form>
                             <div className="input-field">
-                            <input id="search" type="search" required />
-                            <label className="label-icon" htmlFor="search"><i className="material-icons">search</i></label>
+                                    <input id="search" type="search" required placeholder="Search..." />
+                            
                             </div>
                         </form>
                         </div>

@@ -30,14 +30,14 @@ export default class ContactUs extends Component{
         return(
             <div>
                 <div>
-                <h1 className="">Contact Us</h1>
+                    <h1 className="amber-text text-accent-3 left">Contact Us</h1>
                 </div>
               <br />
               
             <form onSubmit={this.onSubmit.bind(this)}>
           
               <div className="input-field ">
-                        <i className="material-icons prefix">mail</i>
+                       
                         <input id="email" type="email" ref="email" placeholder="Your Email Address" />
                 
               </div>
@@ -45,7 +45,7 @@ export default class ContactUs extends Component{
               <br />
           
               <div className="input-field ">
-                        <i className="material-icons prefix">create</i>
+                       
                         <input type="text" id="itextarea1" className="materialize-textarea" data-length="" ref="message" placeholder="Your Message" /> 
               
               </div>

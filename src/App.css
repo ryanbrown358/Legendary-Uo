@@ -6,7 +6,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 250px;
   padding: 20px;
   color: white;
 }
@@ -19,3 +19,13 @@
   font-size: large;
 }
 
+.poster {
+    background: url(./Pictures/banner.png) no-repeat;
+    background-size: cover
+}
+.borders{
+   border-bottom: 8px solid grey;
+}
+input, select, textarea {
+    color: white;
+}
